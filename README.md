@@ -28,4 +28,4 @@ EX4
 INSERT INTO invoices VALUES 
 (AUTO_INCREMENT, 32, 'AX-014-027', '2018-08-01', 434.58, 0.00, 0.00, 2, '2018-08-31', NULL)
 
-Iserted a new record into the invoices table with out a column list
+Inserted a new record into the invoices table with out a column list
