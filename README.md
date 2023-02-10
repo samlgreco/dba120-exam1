@@ -41,3 +41,14 @@ Inserting two records at the same time
 
 
 EX6
+
+UPDATE invoices
+SET credit_total = invoice_total * .1
+UPDATE invoices
+SET payment_total = payment_total + credit_total = invoice_total
+
+Updating two columns
+
+
+EX7
+
