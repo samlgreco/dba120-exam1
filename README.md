@@ -8,7 +8,7 @@ inserted a new record
 EX2
 
 UPDATE terms
-SET terms_description = 'Net due 125 days'
+SET terms_description = 'Net due 125 days',
 terms_due_days   = 125
 WHERE terms_id = 6
 
