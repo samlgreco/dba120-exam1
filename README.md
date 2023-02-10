@@ -29,3 +29,15 @@ INSERT INTO invoices VALUES
 (AUTO_INCREMENT, 32, 'AX-014-027', '2018-08-01', 434.58, 0.00, 0.00, 2, '2018-08-31', NULL)
 
 Inserted a new record into the invoices table with out a column list
+
+
+EX5
+
+INSERT INTO invoice_line_items VALUES
+(115, 1, 160, 180.23, 'Hard drive'),
+(115, 2, 527, 254.35, 'Exchange Server update')
+
+Inserting two records at the same time
+
+
+EX6
