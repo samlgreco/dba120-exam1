@@ -69,3 +69,9 @@ Updating two tables at the same time
 
 EX9
 
+DELETE FROM invoice_line_items
+WHERE invoice_id = 115;
+DELETE FROM invoices
+WHERE invoice_id = 115
+
+Delete a record from two tables at the same time
