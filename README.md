@@ -57,3 +57,15 @@ SET default_account_number = 403
 WHERE vendor_id = 43
 
 Updating a particular cell in a table
+
+
+EX8
+
+UPDATE invoices, vendors
+SET terms_id = 2
+WHERE default_terms_id = 2
+
+Updating two tables at the same time
+
+EX9
+
