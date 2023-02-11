@@ -47,8 +47,13 @@ SET credit_total = invoice_total * .1
 UPDATE invoices
 SET payment_total = payment_total + credit_total = invoice_total
 
-Updating two columns
+Updating two columns at the same time
 
 
 EX7
 
+UPDATE vendors
+SET default_account_number = 403
+WHERE vendor_id = 43
+
+Updating a particular cell in a table
